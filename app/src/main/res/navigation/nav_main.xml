@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/newsFeedFragment">
+
+    <fragment
+        android:id="@+id/newsFeedFragment"
+        android:name="com.app.mvvmBase.ui.newsFeedFragment.NewsFeedFragment"
+        android:label="NewsFeedFragment" />
+    <fragment
+        android:id="@+id/walkThroughFragment"
+        android:name="com.app.mvvmBase.ui.walkThrough.WalkThroughFragment"
+        android:label="WalkThroughFragment" />
+</navigation>
